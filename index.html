@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClueLO ClueDO 🕵️‍♀️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game">
+    <h1>ClueLO · ClueDO</h1>
+    <div class="tagline">
+      A murder has been committed. Every step reveals a clue… or a lie.
+    </div>
+
+    <div class="buttons">
+      <button onclick="drawStep(1)">1 STEP</button>
+      <button onclick="drawStep(5)">5 STEPS</button>
+      <button onclick="drawStep(10)">10 STEPS</button>
+    </div>
+
+    <div id="result" class="result">
+      Loading clues from the case file…
+    </div>
+
+    <div class="footer">
+      Once revealed, a clue vanishes forever.
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
